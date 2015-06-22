@@ -77,3 +77,8 @@ execute "mysql -u root -e 'create database craftcms'" do
   EOH
   not_if exists
 end
+
+cookbook_file "db.php" do
+  path "/var/www/craft/config/db.php"
+  action :create
+end

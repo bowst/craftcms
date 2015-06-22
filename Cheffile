@@ -3,4 +3,5 @@
 site 'https://supermarket.getchef.com/api/v1'
 
 cookbook 'apt', '~> 2.7.0'
-cookbook 'craftcms', path: "local_cookbooks/craftcms"
+cookbook 'craftcms', 
+  path: "../chef_cookbooks/craftcms/"
