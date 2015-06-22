@@ -8,4 +8,5 @@ To use this repo to build a Craft development environment:
 * Create the vagrant instance: ```vagrant up```
 * Once the instance has initialized, configure through a web browser: ```http://craftcms.bowst.dev/admin```
 * Initialize your git repo: ```git init```
+* Commit to your repo: ```git commit -a -m 'Initial commit'```
 * Go wild.

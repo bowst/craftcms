@@ -6,7 +6,7 @@ Vagrant.configure("2") do |c|
   c.hostsupdater.aliases = ["craftcms.bowst.dev"]
   c.vm.network(:private_network, {:ip=>"10.50.50.50"})
   c.vm.synced_folder ".", "/vagrant", disabled: true
-  c.vm.synced_folder "/opt/sites/bowst/craftcms/", "/var/www/", type: :nfs
+  c.vm.synced_folder ".", "/var/www/", type: :nfs
   c.omnibus.chef_version = :latest
   
   c.vm.provider "vmware_fusion" do |v|
