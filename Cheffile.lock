@@ -1,0 +1,15 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    apt (2.7.0)
+
+PATH
+  remote: local_cookbooks/craftcms
+  specs:
+    craftcms (1.0.0)
+      apt (>= 0.0.0)
+
+DEPENDENCIES
+  apt (~> 2.7.0)
+  craftcms (>= 0)
+
