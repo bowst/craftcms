@@ -1,5 +1,10 @@
 # Instructions
 
+This Vagrant config uses both the Omnibus Vagrant plugin and the Hostsupdater plugin.  The following commands will install them:
+
+* ```vagrant plugin install vagrant-hostsupdater```
+* ```vagrant plugin install vagrant-omnibus```
+
 To use this repo to build a Craft development environment:
 
 * Clone the repo locally: ```git clone https://github.com/bowst/craftcms.git```
