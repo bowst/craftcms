@@ -2,7 +2,7 @@
 
 To use this repo to build a Craft development environment:
 
-* Clone the repo locally: ```git clone git@github.com:bowst/craftcms.git```
+* Clone the repo locally: ```git clone https://github.com/bowst/craftcms.git```
 * Change to the checked out dir: ```cd craftcms```
 * Remove the .git folder: ```rm -rf .git```
 * Create the vagrant instance: ```vagrant up```
