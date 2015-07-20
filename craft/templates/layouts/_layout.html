@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include "globals/_head" %}
+  <body id="page-{{ entry.slug }}">
+    {% include "globals/_header" %}
+    {% include "globals/_site-nav" %}
+
+    <div id="content" class="container-fluid" role="main">
+      {% block content %}
+      {% endblock %}
+    </div>
+  
+    {% include "globals/_footer" %}
+    {% include "globals/_scripts" %}
+
+  </body>
+</html>

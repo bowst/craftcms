@@ -1,0 +1,14 @@
+<div class="container-fluid site-nav">
+  <div class="row">
+    <nav id="nav">
+      <ul>
+        <li{% if entry.section.name == 'Homepage' %} class="current" {% endif %}><a href="/">Home</a></li>
+        <li{% if entry.section.name == 'Section1' %} class="current" {% endif %}><a href="/section1">Section 1</a></li>
+        <li{% if entry.section.name == 'Section2' %} class="current" {% endif %}><a href="/section2">Section 2</a></li>
+        <li{% if entry.section.name == 'Section3' %} class="current" {% endif %}><a href="/section3">Section 3</a></li>
+        <li{% if entry.section.name == 'Section4' %} class="current" {% endif %}><a href="/section4">Section 4</a></li>
+        <li{% if entry.section.name == 'Section5' %} class="current" {% endif %}><a href="/section5">Section 5</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
