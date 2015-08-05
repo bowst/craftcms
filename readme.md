@@ -41,3 +41,5 @@ To fix this issue:
 * Install VMware tools ([Instructions for Ubuntu here](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1022525))
 * While the install script is running, if it detects an invalid path for the linux headers and prompts you to manually enter the path, type: `/usr/src/linux-headers-$(uname -r)/include`
 * When prompted if you would like to enable automatic rebuilding of the kernel, enter yes (head's up, the default is no)
+
+After all that, you should be all set.  Run `vagrant reload` to restart the guest machine.
