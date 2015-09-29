@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |c|
   c.vm.box = "base"
-  c.vm.box = "chef/ubuntu-14.04"
+  c.vm.box = "mevansam/chef-ubuntu-14.04"
 
   c.vm.hostname = "craftcms.bowst.dev"
   c.hostsupdater.aliases = ["craftcms.bowst.dev"]
