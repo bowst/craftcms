@@ -19,11 +19,6 @@ apt_repository 'php5' do
   distribution node['lsb']['codename']
 end
 
-apt_repository 'mysql-5.6' do
-  uri           'ppa:ondrej/mysql-5.6'
-  distribution node['lsb']['codename']
-end
-
 for dev_package in ["curl", "unzip", "build-essential", "git-core", "imagemagick"] do
   apt_package dev_package do
     action :install

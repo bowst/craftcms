@@ -3,7 +3,6 @@ Vagrant.configure("2") do |c|
   c.vm.box = "mevansam/chef-ubuntu-14.04"
 
   c.vm.hostname = "craftcms.bowst.dev"
-  c.hostsupdater.aliases = ["craftcms.bowst.dev"]
   c.vm.network(:private_network, {:ip=>"10.50.50.50"})
   c.vm.synced_folder ".", "/vagrant", disabled: true
   c.vm.synced_folder ".", "/var/www/", type: :nfs
